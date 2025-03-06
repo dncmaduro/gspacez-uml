@@ -1,9 +1,108 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="rCG3ZhpHRjCTM29J23K2">
-    <mxGraphModel>
+    <mxGraphModel dx="1204" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-2" value="EditCommentForm" style="shape=umlBoundary;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;labelPosition=center;verticalLabelPosition=bottom;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="60" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-3" value="CommentController" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="425" y="50" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-4" value="Post Database" style="shape=cylinder3;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="600" y="59.00000000000006" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="450" as="sourcePoint" />
+            <mxPoint x="100" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="QtuAluRp3uIQ0XkmbX9d-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="980" as="sourcePoint" />
+            <mxPoint x="280" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="450" as="sourcePoint" />
+            <mxPoint x="450" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="450" as="sourcePoint" />
+            <mxPoint x="620" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="170" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-11" value="Enter the comment edit form" style="endArrow=classic;html=1;rounded=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="190" as="sourcePoint" />
+            <mxPoint x="270" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="QtuAluRp3uIQ0XkmbX9d-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="450" as="sourcePoint" />
+            <mxPoint x="280" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="180" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-15" value="Send edit comment request" style="endArrow=classic;html=1;rounded=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="210" as="sourcePoint" />
+            <mxPoint x="440" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-17" value="Update comment data" style="endArrow=classic;html=1;rounded=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="230" as="sourcePoint" />
+            <mxPoint x="610" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="220" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-19" value="Edit comment successfully" style="endArrow=classic;html=1;rounded=0;dashed=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="320" as="sourcePoint" />
+            <mxPoint x="460" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="290" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-21" value="Return comment data&lt;div&gt;and notification&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="330" as="sourcePoint" />
+            <mxPoint x="290" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="310" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-23" value="Show comment after update&lt;div&gt;and notification&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="340" as="sourcePoint" />
+            <mxPoint x="110" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtuAluRp3uIQ0XkmbX9d-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="320" width="20" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
