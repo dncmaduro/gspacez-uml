@@ -1,9 +1,82 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="4CJtx4Y9ZTxzHZaBGlkM">
-    <mxGraphModel>
+    <mxGraphModel dx="753" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5zKmhorqgYsgehBzSaRs-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5zKmhorqgYsgehBzSaRs-2" value="SquadScreen" style="shape=umlBoundary;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;labelPosition=center;verticalLabelPosition=bottom;align=center;" vertex="1" parent="1">
+          <mxGeometry x="230" y="60" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5zKmhorqgYsgehBzSaRs-3" value="SquadController" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="410" y="50" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5zKmhorqgYsgehBzSaRs-4" value="Squad Database" style="shape=cylinder3;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="590" y="60.00000000000006" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5zKmhorqgYsgehBzSaRs-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="980" as="sourcePoint" />
+            <mxPoint x="90" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zKmhorqgYsgehBzSaRs-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="980" as="sourcePoint" />
+            <mxPoint x="270" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zKmhorqgYsgehBzSaRs-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="980" as="sourcePoint" />
+            <mxPoint x="440" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zKmhorqgYsgehBzSaRs-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="5zKmhorqgYsgehBzSaRs-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="980" as="sourcePoint" />
+            <mxPoint x="610" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zKmhorqgYsgehBzSaRs-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5zKmhorqgYsgehBzSaRs-10" value="Choose leave squad" style="endArrow=classic;html=1;rounded=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="190" as="sourcePoint" />
+            <mxPoint x="260" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zKmhorqgYsgehBzSaRs-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5zKmhorqgYsgehBzSaRs-13" value="Send leave squad request" style="endArrow=classic;html=1;rounded=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="210" as="sourcePoint" />
+            <mxPoint x="430" y="210" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zKmhorqgYsgehBzSaRs-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="190" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5zKmhorqgYsgehBzSaRs-16" value="Remove user from members&lt;div&gt;data of squad&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="230" as="sourcePoint" />
+            <mxPoint x="600" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zKmhorqgYsgehBzSaRs-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="5zKmhorqgYsgehBzSaRs-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="980" as="sourcePoint" />
+            <mxPoint x="610" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5zKmhorqgYsgehBzSaRs-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="210" width="20" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
