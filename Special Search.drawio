@@ -1,9 +1,146 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="GVHkTlqxzpSq-BNTtsFM">
-    <mxGraphModel>
+    <mxGraphModel dx="1204" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="liXGid4RzyR4Yy9pEarc-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-2" value="SearchScreen" style="shape=umlBoundary;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=12;labelPosition=center;verticalLabelPosition=bottom;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="20" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-3" value="SearchController" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="420" y="10" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-4" value="Multiple Databases" style="shape=cylinder3;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="600" y="20.000000000000057" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="liXGid4RzyR4Yy9pEarc-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="1059" as="sourcePoint" />
+            <mxPoint x="100" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="liXGid4RzyR4Yy9pEarc-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="1059" as="sourcePoint" />
+            <mxPoint x="280" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="liXGid4RzyR4Yy9pEarc-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="1059" as="sourcePoint" />
+            <mxPoint x="450" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="509" as="sourcePoint" />
+            <mxPoint x="620" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="liXGid4RzyR4Yy9pEarc-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="509" as="sourcePoint" />
+            <mxPoint x="100" y="229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="20" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-11" value="Enter search prompt" style="endArrow=classic;html=1;rounded=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="269" as="sourcePoint" />
+            <mxPoint x="270" y="269" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="liXGid4RzyR4Yy9pEarc-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="508" as="sourcePoint" />
+            <mxPoint x="280" y="229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="259" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-14" value="Send search query to&lt;div&gt;all databases&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="289" as="sourcePoint" />
+            <mxPoint x="440" y="289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="liXGid4RzyR4Yy9pEarc-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="509" as="sourcePoint" />
+            <mxPoint x="450" y="229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="269" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-17" value="Query data" style="endArrow=classic;html=1;rounded=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="299" as="sourcePoint" />
+            <mxPoint x="610" y="299" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="289" width="20" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-19" value="Return data" style="endArrow=classic;html=1;rounded=0;dashed=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="379" as="sourcePoint" />
+            <mxPoint x="460" y="379" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="369" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-21" value="Convert data to search&lt;div&gt;result groups&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="399" as="sourcePoint" />
+            <mxPoint x="290" y="399" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="389" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-23" value="Show data as tabs,&amp;nbsp;&lt;div&gt;so user can&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;navigate to&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;view data in each group&lt;/span&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="419" as="sourcePoint" />
+            <mxPoint x="110" y="419" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="399" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="120" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-27" value="Choose type of data that need&lt;div&gt;to search&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="140" as="sourcePoint" />
+            <mxPoint x="270" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-29" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="liXGid4RzyR4Yy9pEarc-13" target="liXGid4RzyR4Yy9pEarc-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="259" as="sourcePoint" />
+            <mxPoint x="280" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="130" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="liXGid4RzyR4Yy9pEarc-31" value="Return corresponding form" style="endArrow=classic;html=1;rounded=0;dashed=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="220" as="sourcePoint" />
+            <mxPoint x="110" y="220" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
