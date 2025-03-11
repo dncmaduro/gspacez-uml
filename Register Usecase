@@ -27,8 +27,8 @@
         </mxCell>
         <mxCell id="Cgmn-ncNSGaNEvcF1T0J-9" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="160" as="sourcePoint" />
-            <mxPoint x="660" y="160" as="targetPoint" />
+            <mxPoint x="560" y="170" as="sourcePoint" />
+            <mxPoint x="660" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Cgmn-ncNSGaNEvcF1T0J-10" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="Cgmn-ncNSGaNEvcF1T0J-9">
